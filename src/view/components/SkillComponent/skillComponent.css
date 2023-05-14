@@ -1,0 +1,27 @@
+.cardImg {
+    display: flex;
+    margin: 16px 16px;
+    align-items: center;
+    width: fit-content;
+    padding: 8px;
+    border-bottom: 1px solid #000;
+}
+
+.cardImg img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    object-fit: contain;
+}
+
+.cardImg p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+    margin-left: 16px;
+}

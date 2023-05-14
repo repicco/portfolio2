@@ -1,0 +1,43 @@
+
+.profileContent {
+    max-width: 992px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 8px;
+    border: 1px solid #023436;
+    border-radius: 8px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.fa-brands {
+    font-size: 52px;
+}
+
+.fa-linkedin-in {
+    color: blue;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-brands:hover {
+    color: #023436;
+    cursor: pointer;
+}
+
+.skillContent {
+    max-width: 992px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,20 @@
+.card {
+    max-width: 300px;
+    margin: 16px;
+}
+
+.card img {
+    border-bottom: 1px solid #023436;
+}
+
+.card a {
+    background-color: #023436;
+    color: #fff;
+    border: 1px solid #023436;
+}
+
+.card a:hover {
+    background-color: #03b5aa;
+    color: #ddd;
+    border: 1px solid #03b5aa;
+}

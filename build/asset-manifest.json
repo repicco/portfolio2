@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82d7f0a4.css",
+    "main.js": "/static/js/main.7cf2c97d.js",
+    "static/js/787.1297335f.chunk.js": "/static/js/787.1297335f.chunk.js",
+    "static/media/churras.png": "/static/media/churras.9dc16b0f6c46a933c269.png",
+    "static/media/filmes.png": "/static/media/filmes.676d03d60fb489b92731.png",
+    "static/media/spotify.png": "/static/media/spotify.d82c76df790fd8206f66.png",
+    "static/media/pet.png": "/static/media/pet.8b7a37eeb11bfc61bb81.png",
+    "static/media/blogdev.png": "/static/media/blogdev.87a6326320c115dd0ef8.png",
+    "static/media/ingles.png": "/static/media/ingles.9e74fa62fe30e424e011.png",
+    "static/media/css.png": "/static/media/css.831e1a33a8c6b70fef47.png",
+    "static/media/html.png": "/static/media/html.14ed422a9bf64c0725c1.png",
+    "static/media/cronometro.png": "/static/media/cronometro.830f60e1267ed2285c0a.png",
+    "static/media/defaultProfile.jpg": "/static/media/defaultProfile.391000ed1a4b4fd9b766.jpg",
+    "static/media/finance.png": "/static/media/finance.287afc5fc16f7fe16a67.png",
+    "static/media/reactNative.png": "/static/media/reactNative.f6b89d232c9bc9f828e5.png",
+    "static/media/nextJs.png": "/static/media/nextJs.2e6a1b95bb207fbb401b.png",
+    "static/media/restApi.png": "/static/media/restApi.9f803242234ef999c679.png",
+    "static/media/js.jpg": "/static/media/js.36596cf7bf7107175610.jpg",
+    "index.html": "/index.html",
+    "main.82d7f0a4.css.map": "/static/css/main.82d7f0a4.css.map",
+    "main.7cf2c97d.js.map": "/static/js/main.7cf2c97d.js.map",
+    "787.1297335f.chunk.js.map": "/static/js/787.1297335f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82d7f0a4.css",
+    "static/js/main.7cf2c97d.js"
+  ]
+}

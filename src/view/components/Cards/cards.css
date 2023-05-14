@@ -1,0 +1,12 @@
+.card {
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #037971;
+}
+
+.card-title {
+    font-weight: bold;
+}   
