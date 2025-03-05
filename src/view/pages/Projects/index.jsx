@@ -11,8 +11,15 @@ import pet from "../../assets/img/projects/pet.png";
 import filmes from "../../assets/img/projects/filmes.png";
 import blogdev from "../../assets/img/projects/blogdev.png";
 import spotify from "../../assets/img/projects/spotify.png";
+import fswDonald from "../../assets/img/projects/fswDonalds.png";
 
 const cards = [
+  {
+    img: fswDonald,
+    title: "Restaurante Online",
+    text: "NextJs + PostgreeDB + TailwindCss + RestApi",
+    link: "https://nextjs-donalds.vercel.app/fsw-donalds",
+  },
   {
     img: filmes,
     title: "Filmes",
