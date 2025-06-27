@@ -6,11 +6,19 @@ import Accordion from "../../components/Accordion";
 const collapse = [
   {
     title:
-      "2022 - Atual | Ultracon - Claro Clube | Dev Front-end Sênior React JS",
+      "2024 - Atual | Global Hitss - Claro Clube | Dev Front-end Sênior React",
+    description:
+      "Mantendo a mesma estrutura do sistema Web anterior, atuando em paralelo também com React Native para criação de novas features e sustentação do legado. Utilizando Redux + Saga para gerenciamento de estados,  novos componentes utilizando arquitetura DDD separando as camadas de négócios, lógica e apresentação.",
+    dataTarget: "7",
+    collapseClass: "show",
+  },
+  {
+    title:
+      "2022 - 2024 | Ultracon - Claro Clube | Dev Front-end Sênior React JS",
     description:
       "Criação de um novo sistema para o Claro Clube utilizando o React js com o Webpack gerando um web component para utilização em Vue js e Backbone js. A conexão com o backend utiliza Graphql e Rest Apis, estrutura de ContextApi para store e novos componentes utilizando arquitetura MVC (pastas) com SOLID (lógicas e componentes).",
     dataTarget: "6",
-    collapseClass: "show",
+    collapseClass: "",
   },
   {
     title: "2021 - 2022| A55 Crédito | Dev Front-end Sênior Vue JS",

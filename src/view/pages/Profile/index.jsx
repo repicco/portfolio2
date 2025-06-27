@@ -26,6 +26,11 @@ const Skills = [
 
 export default function Profile() {
   function handleContact(type) {
+    if (type === "github") {
+      window.open("https://github.com/repicco", "_blank");
+      return;
+    }
+
     if (type === "linkedin") {
       window.open("https://www.linkedin.com/in/repicco/", "_blank");
       return;
@@ -57,6 +62,10 @@ export default function Profile() {
           </p>
 
           <div className="icons">
+            <i
+              class="fa-brands fa-github"
+              onClick={() => handleContact("github")}
+            ></i>
             <i
               class="fa-brands fa-linkedin-in"
               onClick={() => handleContact("linkedin")}
