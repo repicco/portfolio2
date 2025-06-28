@@ -11,6 +11,8 @@ import html from "../../assets/img/html.png";
 import css from "../../assets/img/css.png";
 import graphql from "../../assets/img/graphqlApi.png";
 import rest from "../../assets/img/restApi.png";
+import cvPtBr from "../../assets/doc/cvRenatoPiccoPt.pdf";
+import cvEn from "../../assets/doc/cvRenatoPiccoEn.pdf";
 
 const Skills = [
   { text: "React Js", img: react },
@@ -42,6 +44,24 @@ export default function Profile() {
     );
   }
 
+  function createDownloadBtn(file, language) {
+    const link = document.createElement("a");
+    link.href = file;
+    link.download = `cvRenatoPicco${language}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  function clickDownloadCv({ language }) {
+    if (language === "portugues") {
+      createDownloadBtn(cvPtBr, "PtBr");
+      return;
+    }
+
+    createDownloadBtn(cvEn, "En");
+  }
+
   return (
     <>
       <div className="container">
@@ -60,6 +80,21 @@ export default function Profile() {
             <span>Objetivo profissional:</span> Atuar na área de Desenvolvimento
             Web - Front-end Sênior ReactJS.
           </p>
+
+          <div className="downloadCv">
+            <button
+              className="downloadCvBtns"
+              onClick={() => clickDownloadCv({ language: "portugues" })}
+            >
+              Download CV - Português Brasil
+            </button>
+            <button
+              className="downloadCvBtns"
+              onClick={() => clickDownloadCv({ language: "ingles" })}
+            >
+              Download CV - Inglês
+            </button>
+          </div>
 
           <div className="icons">
             <i

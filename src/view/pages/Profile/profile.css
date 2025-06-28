@@ -1,43 +1,70 @@
-
 .profileContent {
-    max-width: 992px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  max-width: 992px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-    padding: 8px;
-    border: 1px solid #023436;
-    border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #023436;
+  border-radius: 8px;
+}
+
+.downloadCv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: 16px 0;
+}
+
+@media (min-width: 522px) {
+  .downloadCv {
+    flex-direction: row;
+  }
+}
+
+.downloadCvBtns {
+  padding: 8px;
+  background: #023436;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.downloadCvBtns:hover {
+  color: #023436;
+  background: #fff;
+  transition: 0.7s;
 }
 
 .icons {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 16px;
 }
 
 .fa-brands {
-    font-size: 52px;
+  font-size: 52px;
 }
 
 .fa-linkedin-in {
-    color: blue;
+  color: blue;
 }
 
 .fa-whatsapp {
-    color: green;
+  color: green;
 }
 
 .fa-brands:hover {
-    color: #023436;
-    cursor: pointer;
+  color: #023436;
+  cursor: pointer;
 }
 
 .skillContent {
-    max-width: 992px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  max-width: 992px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
