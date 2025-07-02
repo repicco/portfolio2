@@ -1,12 +1,41 @@
 .card {
     box-shadow: 1px 1px 1px 1px #ccc;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
 }
 
-.card:hover {
+.card-content:hover {
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px #037971;
+    transition: 0.7s;
+}
+
+.card-body {
+    min-height: 116px;
+}
+
+hr {
+    margin: 0;
 }
 
 .card-title {
     font-weight: bold;
 }   
+
+.card-gitlink {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 1rem
+}
+
+.card-gitlink:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #037971;
+    transition: 0.7s;
+}
+
+.fa-github {
+    font-size: 32px;
+}
