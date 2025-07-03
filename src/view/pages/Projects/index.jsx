@@ -79,11 +79,17 @@ const cards = [
   },
 ];
 
-export default function History() {
+export default function Projects() {
   return (
     <div className="container">
       {cards.map((el) => (
-        <Cards img={el.img} title={el.title} text={el.text} link={el.link} repo={el.repo} />
+        <Cards
+          img={el.img}
+          title={el.title}
+          text={el.text}
+          link={el.link}
+          repo={el.repo}
+        />
       ))}
     </div>
   );

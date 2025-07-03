@@ -10,7 +10,11 @@ export default function Layout({ children }) {
   const [mobOpen, setMobOpen] = useState(false);
 
   useEffect(() => {
-    console.log(location);
+    if (location.pathname === "/projects_apps") {
+      setActiveButton("Projetos Apps");
+      return;
+    }
+
     if (location.pathname === "/projects") {
       setActiveButton("Projetos");
       return;

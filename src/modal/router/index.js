@@ -4,6 +4,7 @@ import Layout from "../../view/Layout";
 import Profile from "../../view/pages/Profile";
 import History from "../../view/pages/History";
 import Projects from "../../view/pages/Projects";
+import ProjectsApps from "../../view/pages/ProjectsApps";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +28,14 @@ export const router = createBrowserRouter([
     element: (
       <Layout>
         <Projects />
+      </Layout>
+    ),
+  },
+  {
+    path: "/projects_apps",
+    element: (
+      <Layout>
+        <ProjectsApps />
       </Layout>
     ),
   },

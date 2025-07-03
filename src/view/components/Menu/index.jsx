@@ -8,6 +8,7 @@ const menu = [
   { path: "/", btn: "Perfil" },
   { path: "/history", btn: "Histórico" },
   { path: "/projects", btn: "Projetos" },
+  { path: "/projects_apps", btn: "Projetos Apps" },
 ];
 
 export default function Menu({ activeButton, setActiveButton, mob }) {
