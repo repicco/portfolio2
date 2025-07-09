@@ -1,0 +1,50 @@
+.projectApps__container {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.projectApps__swipper {
+    max-width: 70%;
+    margin-left: 15%;
+
+}
+
+.projectApps__card {
+    display: flex;
+    align-items: center;
+}
+
+.projectApps__repoButton {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    max-width: 160px;
+}
+
+.projectApps__repoButton:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #037971;
+    transition: 0.7s;
+}
+
+.swiper {
+    width: 100%;
+    overflow: hidden;
+    /* previne scroll interno do swiper */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Se ainda assim der scroll lateral, força o body a esconder */
+body {
+    overflow-x: hidden; }
