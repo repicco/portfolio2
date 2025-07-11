@@ -58,6 +58,13 @@ export default function ProjectsApps() {
           {carouselData.map((el) => (
             <SwiperSlide>
               <div className="projectApps__card">
+                <div
+                  className="projectApps__repoButton"
+                  onClick={() => clickRepo(el.linkRepo)}
+                >
+                  <i class="fa-brands fa-github" />
+                  Repositório
+                </div>
                 <Lottie
                   options={{
                     loop: true,
@@ -79,13 +86,6 @@ export default function ProjectsApps() {
                 <div>
                   <h4>{el.title}</h4>
                   <p>{el.tech}</p>
-                  <div
-                    className="projectApps__repoButton"
-                    onClick={() => clickRepo(el.linkRepo)}
-                  >
-                    <i class="fa-brands fa-github " />
-                    Repositório
-                  </div>
                 </div>
               </div>
             </SwiperSlide>
